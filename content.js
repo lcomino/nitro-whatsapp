@@ -1,5 +1,5 @@
 const interval = setInterval(() => {
-  const header = document.querySelector('._3auIg')
+  const header = document.querySelector('._3auIg, ._1QUKR')
   if (header) {
     clearInterval(interval)
     let darkModeEnabled = window.localStorage.getItem('whatsapp-darkmode')
@@ -115,3 +115,5 @@ const interval = setInterval(() => {
 
   }
 }, 100)
+
+console.log("NITRO WHATSAPP!!")
